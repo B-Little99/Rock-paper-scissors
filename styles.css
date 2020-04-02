@@ -1,0 +1,72 @@
+body {
+    font-family: ;
+    color: #4A34D9;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-user-select: none;
+}
+
+header {
+    font-size: 45px;
+    margin: 20px auto;
+    font-family: 'Heebo', sans-serif;
+}
+
+#introContainer {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    color: darkslategray;
+}
+
+p {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+table {
+    margin: auto;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+td {
+
+}
+
+img {
+    border-radius: 50%;
+    border: 5px solid #4A34D9;
+}
+
+#Container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+#Rock {
+    margin: 25px auto;
+}
+
+#Rock:hover {
+    transform: scale(1.3);
+}
+
+#Paper {
+    margin: 25px auto;
+}
+
+#Paper:hover {
+    transform: scale(1.3);
+}
+
+#Scissors {
+    margin: 25px auto;
+}
+
+#Scissors:hover {
+    transform: scale(1.3);
+}
