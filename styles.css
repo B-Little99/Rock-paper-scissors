@@ -25,14 +25,15 @@ p {
 }
 
 table {
-    margin: auto;
+    margin: 10px auto;
     padding: 25px;
     font-size: 30px;
     font-weight: bold;
 }
 
 td {
-
+margin: 5px auto;
+padding: 20px;
 }
 
 img {
