@@ -9,7 +9,7 @@
     <body>
         <header>Rock, paper, scissors - the online version</header>
         <div id = "introContainer">
-            <p>Welcome to the online version of the classic rock, paper, scissors game! You will be the 'player' and will work to beat the computer in five rounds. Whoever scores the most points win!</p>
+            <p id = "intro">Welcome to the online version of the classic rock, paper, scissors game! You will work to beat the computer in five rounds. Whoever scores 5 points win!</p>
         </div>
 
         <table id = "scoreTable">
@@ -19,23 +19,25 @@
                 <td>Computer score</td>
             </tr>
             <tr>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td id ="playerScoreTable">0</td>
+                <td id ="drawTable">0</td>
+                <td id ="computerScoreTable">0</td>
             </tr>
         </table>
 
+        <p id ="resultMessage"></p>
+
         <div id = "Container">
             <div id = "Rock">
-                <img src="" alt="">
+                <img src="Rock.png" alt="Rock">
                 <p>Rock</p>
             </div>
             <div id = "Paper">
-                <img src="" alt="">
+                <img src="Paper.png" alt="Paper">
                 <p>Paper</p>
             </div>
             <div id = "Scissors">
-                <img src="" alt="">
+                <img src="Scissors.png" alt="Scissors">
                 <p>Scissors</p>
             </div>
         </div>

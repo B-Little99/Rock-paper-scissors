@@ -1,0 +1,3 @@
+This game is Rock, Paper, Scissors where the user plays against the computer to work up to five points to win the game.
+
+The computer randomly generates a number between 1 - 9 and then assigns the number to the rock/paper/scissor options. The game is meant to be very simple so there is no submit or restart button as the game rounds automatically start on clicking one of the options and once it reaches the score limit of 5 it declares a winner!
